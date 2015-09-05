@@ -8,5 +8,5 @@ This container exposes a single volume, /data, where other containers can store 
 
 ## Usage
 
-	docker create --name my-container-data mattiash/data
+	docker create --name my-container-data ttmmghmm/data
 	docker run --volumes-from my-container-data my-container
